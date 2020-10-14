@@ -1,6 +1,6 @@
 # install GUI XFCE4 on ubuntu 18.04 server (VPS)
 
-## connect to your VPS and run this comands bellow, one by one
+### connect to your VPS and run this comands bellow, one by one
 
 > apt update
 
@@ -16,3 +16,6 @@
 > sudo /etc/init.d/xrdp restart
 
 > sudo reboot
+
+
+#### now you can connect with RDP client (like Windows Remote Desktop)
