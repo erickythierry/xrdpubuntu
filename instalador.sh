@@ -41,7 +41,7 @@ case $resposta in
 
 
 echo "## ## finalizado"
-echo "## deseja reiniciar o sistema? (s/n)"
+echo "## deseja reiniciar o sistema?"
 echo "	1) - sim"
 echo "	2) - não"
 read -p "Selecione a opção [1-2]: " resposta
