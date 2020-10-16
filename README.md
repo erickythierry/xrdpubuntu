@@ -12,6 +12,7 @@
 
 ### caso não ocorra nenhum erro... agora voce pode conectar a sua vps via RDP (usando o windows remote desktop por exemplo)
 
+___________________________________________________________________________________________________________________________
 
 # install GUI XFCE4 on ubuntu 18.04 server (VPS)
 
