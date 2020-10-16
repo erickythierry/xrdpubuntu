@@ -1,21 +1,13 @@
 # install GUI XFCE4 on ubuntu 18.04 server (VPS)
 
-### connect to your VPS and run this comands bellow, one by one
+### connect to your VPS, upload the script "instalador.sh" and execute this commands:
 
-> apt update
+> sudo chmod +x instalador.sh
 
-> apt install -y xubuntu-core^ xrdp xfce4 xfce4-goodies xorg dbus-x11
-> x11-xserver-utils python3 python3-pip zip git ffmpeg
-> thunar-archive-plugin
+#### then...
 
-> sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n
-> xfce-session \n' /etc/xrdp/startwm.sh
+> sudo ./instalador.sh
 
-> sudo ufw allow 3389/tcp
+#### wait for the script to install and configure everything
 
-> sudo /etc/init.d/xrdp restart
-
-> sudo reboot
-
-
-#### now you can connect with RDP client (like Windows Remote Desktop)
+### now you can connect with RDP client (like Windows Remote Desktop)
