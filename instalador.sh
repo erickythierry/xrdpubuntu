@@ -18,6 +18,22 @@ sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n xfce-session \n' /e
 sudo ufw allow 3389/tcp
 sudo /etc/init.d/xrdp restart
 
+
+echo "## deseja instalar o google chrome?(y/n) (o firefox já foi instalado)..."
+read resposta
+if [ resposta = "s" ]; then
+    echo "## instalando..."
+	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+	sudo apt install ./google-chrome-stable_current_amd64.deb -y
+	sudo apt -f install -y
+	sudo rm -rf google-chrome-stable_current_amd64.deb
+	echo "## "
+	echo "## para utilizar o google chrome, voce precisará criar um novo usuario no sistema (google chrome nao abre no usuario root)"
+	echo "## "
+else
+    echo ""
+fi
+
 echo "## ## tudo ok..."
 echo "## deseja reiniciar o sistema? (s/n)"
 read resposta
