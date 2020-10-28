@@ -1,12 +1,8 @@
 # Instalador de interface Grafica XFCE4 no ubuntu server 18.04 (VPS)
 
-### Conect a sua VPS, envie o arquivo "instalador.sh", e depois execute os comandos a baixo:
+### Conecte a sua VPS, envie o arquivo "instalador.sh", e depois execute o comando a baixo:
 
-> sudo chmod +x instalador.sh
-
-#### depois...
-
-> sudo ./instalador.sh
+> sudo chmod +x instalador.sh && sudo ./instalador.sh
 
 #### aguarde o script instalar e configurar tudo...
 
