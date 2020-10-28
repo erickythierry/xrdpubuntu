@@ -20,11 +20,9 @@ sudo /etc/init.d/xrdp restart
 
 
 echo "## deseja instalar o google chrome? (o firefox já foi instalado)..."
-echo "	1) - sim"
-echo "	2) - não"
-read -p "Selecione a opção [1-2]: " resposta
+read -p "Selecione a opção [s/n]: " resposta
 case $resposta in
-	1)
+	s)
     echo "## instalando..."
 	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 	sudo apt install ./google-chrome-stable_current_amd64.deb -y
@@ -34,7 +32,7 @@ case $resposta in
 	echo "## para utilizar o google chrome, voce precisará criar um novo usuario no sistema (google chrome nao abre no usuario root)"
 	echo "## "
 	;;
-	2)
+	n)
 	echo "ok"
 	;;
 	esac
@@ -42,15 +40,13 @@ case $resposta in
 
 echo "## ## finalizado"
 echo "## deseja reiniciar o sistema?"
-echo "	1) - sim"
-echo "	2) - não"
-read -p "Selecione a opção [1-2]: " resposta
+read -p "Selecione a opção [s/n]: " resposta
 case $resposta in
-	1)
+	s)
     echo "## reiniciando..."
 	sudo reboot
 	;;
-	2)
+	n)
     echo "## ok. flw"
     exit;;
 esac
