@@ -10,7 +10,7 @@ sudo apt -qq update -y
 echo "## atualizando programas instalados..."
 sudo apt -qq upgrade -y
 echo "## instalando interface grafica..."
-sudo apt -qq install xubuntu-desktop -y
+sudo apt -qq install xubuntu-core^ -y
 echo "## instalando demais programas/dependencias..."
 sudo apt -qq install xrdp xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils python3 python3-pip zip git ffmpeg thunar-archive-plugin firefox -y
 echo "## terminando as configurações..."
