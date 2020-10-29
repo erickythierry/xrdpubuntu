@@ -7,8 +7,6 @@
 ##
 echo "## atualizando repositorios..."
 sudo apt -qq update -y
-echo "## atualizando programas instalados..."
-sudo apt -qq upgrade -y
 echo "## instalando interface grafica..."
 sudo apt -qq install xubuntu-core^ -y
 echo "## instalando demais programas/dependencias..."
