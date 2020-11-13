@@ -12,13 +12,9 @@ ________________________________________________________________________________
 
 # install GUI XFCE4 on ubuntu 18.04 server (VPS)
 
-### connect to your VPS, upload the script "instalador.sh" and execute this commands:
+### connect to your VPS, and execute this command:
 
-> sudo chmod +x instalador.sh
-
-#### then...
-
-> sudo ./instalador.sh
+> wget https://raw.githubusercontent.com/erickythierry/xrdpubuntu/main/instalador.sh && sudo chmod +x instalador.sh && sudo ./instalador.sh
 
 #### wait for the script to install and configure everything
 
