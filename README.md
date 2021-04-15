@@ -2,7 +2,7 @@
 
 ### Conecte a sua VPS e depois execute o comando a baixo:
 
-wget ```Bash https://raw.githubusercontent.com/erickythierry/xrdpubuntu/main/instalador.sh && sudo chmod +x instalador.sh && sudo ./instalador.sh```
+> ``` wget https://raw.githubusercontent.com/erickythierry/xrdpubuntu/main/instalador.sh && sudo chmod +x instalador.sh && sudo ./instalador.sh```
 
 #### aguarde o script instalar e configurar tudo...
 
@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 ### connect to your VPS, and execute this command:
 
-```Bash wget https://raw.githubusercontent.com/erickythierry/xrdpubuntu/main/instalador.sh && sudo chmod +x instalador.sh && sudo ./instalador.sh```
+> ```Bash wget https://raw.githubusercontent.com/erickythierry/xrdpubuntu/main/instalador.sh && sudo chmod +x instalador.sh && sudo ./instalador.sh```
 
 #### wait for the script to install and configure everything
 
