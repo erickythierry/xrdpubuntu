@@ -10,7 +10,8 @@ sudo apt -qq update -y
 echo "## instalando interface grafica..."
 sudo apt -qq install xubuntu-core^ -y
 echo "## instalando demais programas/dependencias..."
-sudo apt -qq install xrdp xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils python3 python3-pip zip git ffmpeg thunar-archive-plugin firefox -y
+sudo apt -qq install xfce4 --no-install-recommends -y
+sudo apt -qq install xrdp xorg dbus-x11 x11-xserver-utils python3 python3-pip zip git ffmpeg thunar-archive-plugin firefox -y
 echo "## terminando as configurações..."
 sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n xfce-session \n' /etc/xrdp/startwm.sh
 sudo ufw allow 3389/tcp
