@@ -1,4 +1,4 @@
-# Instalador de interface Grafica XFCE4 no ubuntu server 18.04+ (VPS)
+# Instalador de interface Grafica XFCE4 no ubuntu server 20.04 (VPS)
 
 ### Conecte a sua VPS e depois execute o comando a baixo:
 
@@ -12,7 +12,7 @@
 
 ___________________________________________________________________________________________________________________________
 
-# install GUI XFCE4 on ubuntu 18.04+ server (VPS)
+# install GUI XFCE4 on ubuntu 20.04 server (VPS)
 
 ### connect to your VPS, and execute this command:
 
